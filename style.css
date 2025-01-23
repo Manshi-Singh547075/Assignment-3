@@ -61,12 +61,17 @@ p{
     
    
 }
+
 #sec1box{
     display: flex;
     justify-content: space-between;
     gap: 10px;
     padding: 0px;
     background-size: contain;
+}
+#sec1box a:hover{
+    text-decoration: underline solid black 2px;
+    text-underline-offset: 14px;
 }
 #sec1img{
     background-color:rgb(251, 247, 247);
@@ -80,7 +85,6 @@ p{
     flex-direction: column;
     justify-content: center;
     
-   
 }
 .box2{
     display: flex;
